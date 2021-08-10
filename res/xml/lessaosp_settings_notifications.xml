@@ -18,43 +18,4 @@
     android:title="@string/notifications_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-    <Preference
-        android:key="notification_light"
-        android:fragment="com.android.settings.applications.manageapplications.ManageApplications"
-        android:title="@string/notification_light_settings" >
-        <extra
-            android:name="classname"
-            android:value="com.android.settings.Settings$NotificationAppListActivity" />
-    </Preference>
-
-    <Preference
-        android:key="charging_light"
-        android:fragment="com.lessaosp.settings.fragments.BatteryLightSettings"
-        android:title="@string/battery_light_settings" />
-
-    <!-- Heads up -->
-    <Preference
-        android:key="heads_up_notifications"
-        android:title="@string/heads_up_notifications"
-        android:fragment="com.lessaosp.settings.fragments.HeadsUpSettings" />
-
-    <PreferenceCategory
-        android:key="incall_vib_options"
-        android:title="@string/incall_vibration_category" >
-
-        <com.lessaosp.settings.preferences.SystemSettingSwitchPreference
-            android:key="vibrate_on_connect"
-            android:title="@string/incall_vibrate_connect_title"
-            android:defaultValue="false" />
-
-        <com.lessaosp.settings.preferences.SystemSettingSwitchPreference
-            android:key="vibrate_on_callwaiting"
-            android:title="@string/incall_vibrate_call_wait_title"
-            android:defaultValue="false" />
-
-        <com.lessaosp.settings.preferences.SystemSettingSwitchPreference
-            android:key="vibrate_on_disconnect"
-            android:title="@string/incall_vibrate_disconnect_title"
-            android:defaultValue="false" />
-    </PreferenceCategory>
 </PreferenceScreen>

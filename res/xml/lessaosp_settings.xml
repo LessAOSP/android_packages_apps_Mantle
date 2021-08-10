@@ -42,7 +42,7 @@
         <Preference
             android:key="navigationbar_category"
             android:title="@string/navbar_title"
-            android:fragment="com.lessaosp.settings.fragments.NavbarSettings"
+            android:fragment="com.lessaosp.settings.fragments.NavigationSettings"
             android:icon="@drawable/ic_settings_navbar"/>
 
         <!-- Gestures -->
