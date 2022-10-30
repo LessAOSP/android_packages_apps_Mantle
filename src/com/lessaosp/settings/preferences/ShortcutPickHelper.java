@@ -39,6 +39,8 @@ import android.view.ViewGroup;
 import android.widget.BaseExpandableListAdapter;
 import android.widget.ExpandableListView;
 import android.widget.TextView;
+import androidx.fragment.app.FragmentActivity;
+import androidx.fragment.app.Fragment;
 
 import com.android.settings.R;
 import com.lessaosp.settings.preferences.ShortcutPickHelper.AppExpandableAdapter.GroupInfo;
